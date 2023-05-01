@@ -1,1 +1,1 @@
-# DES-Encryption-and-Decrytion
+# DES Encryption and Decrytion
