@@ -1,11 +1,12 @@
 # DES Encryption and Decrytion
 
-This repository contains a Java implementation of the XOR operation and the Data Encryption Standard (DES) algorithm. The program performs encryption on a given plaintext using a series of operations, including initial and final permutations, expansion, substitution, and straight permutation.
+This Java program performs encryption and decryption using the Data Encryption Standard (DES) algorithm. DES is a symmetric-key algorithm for the encryption of digital data. It encrypts and decrypts messages in blocks of 64 bits using 56-bit keys. The algorithm consists of 16 rounds of encryption and decryption, providing a good level of security.
 
 ## Features
 
 * XOR operation on two binary strings
 * DES encryption algorithm
+* 16 rounds of encryption and decryption
 * Generate keys function
 
 ## Usage
