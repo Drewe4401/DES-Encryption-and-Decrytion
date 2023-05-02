@@ -11,7 +11,7 @@ This Java program performs encryption and decryption using the Data Encryption S
 
 ## Usage
 
-The main components of the program are two Methods:
+The main components of the program are three Methods:
 
 * public static String xor(String a, String b)
 * public static String encrypt(String pt, String[] rkb, String[] rk)
