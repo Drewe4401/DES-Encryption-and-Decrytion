@@ -27,7 +27,7 @@ StringBuilder object to a string using the 'toString()' method.
 
 ## DES Encryption
 
-The encrypt function takes a plaintext pt, a set of round keys rkb (backward keys), and rk (forward keys) and returns the resulting ciphertext. The key generation process is not included in the code, so you'll need to generate the round keys beforehand.
+The encrypt function takes a plaintext pt, a set of round keys rkb (backward keys), and rk (forward keys) and returns the resulting ciphertext.
 
 ## Process Text
 
