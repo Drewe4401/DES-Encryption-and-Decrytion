@@ -27,7 +27,7 @@ StringBuilder object to a string using the 'toString()' method.
 
 ## DES Encryption
 
-The encrypt function takes a plaintext pt, a set of round keys rkb (backward keys), and rk (forward keys) and returns the resulting ciphertext.
+This code is an implementation of the DES (Data Encryption Standard) algorithm. DES is a symmetric-key block cipher that takes a plaintext string and a key as inputs and produces a ciphertext string as output.
 
 ## Process Text
 
