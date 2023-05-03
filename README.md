@@ -27,7 +27,23 @@ StringBuilder object to a string using the 'toString()' method.
 
 ## DES Encryption
 
-This code is an implementation of the DES (Data Encryption Standard) algorithm. DES is a symmetric-key block cipher that takes a plaintext string and a key as inputs and produces a ciphertext string as output.
+This function is an implementation of the DES (Data Encryption Standard) algorithm. DES is a symmetric-key block cipher that takes a plaintext string and a key as inputs and produces a ciphertext string as output.
+
+* Takes three input arguments: plaintext (pt), round key bits (rkb), and round keys (rk).
+* Defines the initial permutation (INITIAL_PERM), final permutation (FINAL_PERM), expansion permutation (EXP_D), substitution boxes (SBOX), and * permutation (PER) tables used in the DES algorithm.
+* Converts the plaintext from hexadecimal to binary format.
+* Performs the initial permutation on the plaintext.
+* Splits the permuted plaintext into two halves (left and right).
+* Iterates through 16 rounds of encryption:
+ * Expands the right half using the expansion permutation (EXP_D).
+ * XORs the expanded right half with the current round key bits (rkb[i]).
+ * Performs substitution using the S-boxes (SBOX) based on the row and column calculated from the XORed result.
+ * Performs the straight permutation (PER) on the substituted result.
+ * XORs the left half with the permuted result and updates the left half.
+ * Swaps the left and right halves, except for the last round.
+* Combines the left and right halves after the 16 rounds.
+* Performs the final permutation (FINAL_PERM) on the combined result.
+* Returns the ciphertext in hexadecimal format.
 
 ## Process Text
 
